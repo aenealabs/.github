@@ -20,11 +20,7 @@ Everything here is built to ship — production-grade code with real test covera
 
 ### [Project Aura](https://github.com/aenealabs/aura)
 
-Autonomous AI platform for enterprise code intelligence and security remediation. Multi-agent system that detects vulnerabilities, generates patches, validates in sandboxes, and queues for human approval.
-
-- **Stack:** Python, FastAPI, AWS (Neptune, OpenSearch, EKS, Bedrock)
-- **Scale:** 439K+ lines of code, 23,761+ tests, 87 ADRs, 155 CloudFormation templates
-- **Compliance:** NIST 800-53 aligned, GovCloud ready
+Autonomous AI security platform for enterprise code intelligence and security remediation. Multi-agent system that detects vulnerabilities, generates patches, validates in sandboxes, and queues for human approval.
 
 More projects coming soon.
 
