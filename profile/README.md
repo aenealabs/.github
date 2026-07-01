@@ -36,6 +36,8 @@ More projects coming soon.
 
 Open-source packages we maintain for building AI agents. Each lives in its own repository.
 
+We build with a zero-dependency mindset &mdash; keeping packages lightweight, auditable, and free of supply-chain bloat wherever the problem allows.
+
 | Package | Description | |
 |:---|:---|:---|
 | **polytools** | Cross-provider LLM tool schema generation from Python type hints | [Repo &rarr;](https://github.com/aenealabs/polytools) |
