@@ -39,6 +39,7 @@ Open-source packages we maintain for building AI agents. Each lives in its own r
 | Package | Description | |
 |:---|:---|:---|
 | **polytools** | Cross-provider LLM tool schema generation from Python type hints | [Repo &rarr;](https://github.com/aenealabs/polytools) |
+| **agentcassette** | Deterministic agent test recorder and replayer &mdash; record live runs, replay as mocks | [Repo &rarr;](https://github.com/aenealabs/agentcassette) |
 
 ---
 
