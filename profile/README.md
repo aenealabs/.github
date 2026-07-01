@@ -41,6 +41,7 @@ Open-source packages we maintain for building AI agents. Each lives in its own r
 | **polytools** | Cross-provider LLM tool schema generation from Python type hints | [Repo &rarr;](https://github.com/aenealabs/polytools) |
 | **agentcassette** | Deterministic agent test recorder and replayer &mdash; record live runs, replay as mocks | [Repo &rarr;](https://github.com/aenealabs/agentcassette) |
 | **contexttrim** | Pluggable context-window management for LLM agents | [Repo &rarr;](https://github.com/aenealabs/contexttrim) |
+| **injectionshield** | Rule-based prompt-injection detection for LLM agents | [Repo &rarr;](https://github.com/aenealabs/injectionshield) |
 
 ---
 
