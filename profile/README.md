@@ -39,6 +39,12 @@ Four small libraries, each solving one problem that every production agent hits.
   polytools         contexttrim          injectionshield              agentcassette
 ```
 
+## Upcoming projects
+
+- **Backlog Pilot** &mdash; an AI backlog copilot for product owners. It turns stakeholder requests into epics and stories that are traced to the stakeholder's own words, quality-checked, and WSJF-prioritized, with a person approving every AI suggestion. *In active development.*
+- **Listening-tour synthesizer** *(working title)* &mdash; turns stakeholder interview notes into themes, personas, and a prioritized list of problems.
+- **Status &amp; risk narrator** *(working title)* &mdash; drafts weekly leadership updates and early risk warnings from delivery, budget, and risk-log data.
+
 ## Principles
 
 - **Regulated first.** Audit trails, human approval, and least privilege are designed in from the start; simpler environments get them for free.
