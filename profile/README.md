@@ -9,7 +9,11 @@
 
 Aenea Labs is the portfolio of **LaVon Rutledge**: AI agent infrastructure and security engineering, designed for regulated industries where every automated decision has to be explained, tested, and approved by a person.
 
-## Project Aura
+## Projects
+
+Active projects I build and maintain.
+
+### Project Aura
 
 **[aenealabs/aura](https://github.com/aenealabs/aura)** &mdash; an autonomous AI security platform for enterprise codebases. Aura finds a vulnerability, writes the patch, proves it in a network-isolated sandbox, and queues it for human approval.
 
@@ -17,7 +21,7 @@ Aenea Labs is the portfolio of **LaVon Rutledge**: AI agent infrastructure and s
 - Human-in-the-loop approval workflows with industry-specific policy presets
 - 26,000+ tests &middot; Python 3.11+ &middot; source available under BSL 1.1 (becomes Apache 2.0 on 2030-03-23)
 
-## Agent packages
+### Agent packages
 
 Four small libraries, each solving one problem that every production agent hits. All are MIT licensed, published on PyPI, support Python 3.9+, and use only the standard library &mdash; no third-party dependencies to audit or patch. Install any of them with `pip install <package>`.
 
@@ -35,17 +39,17 @@ Four small libraries, each solving one problem that every production agent hits.
   polytools         contexttrim          injectionshield              agentcassette
 ```
 
-## Mission Control *(private, in development)*
+### Mission Control *(private, in development)*
 
 A suite of AI tools for IT product leadership in engineering organizations. Every tool follows the same rules: code computes, the model explains with citations that code checks, a person approves, every decision is audited, and demos run offline from recorded output.
 
 - **Backlog Pilot** &mdash; turns stakeholder requests into epics and stories traced to the stakeholder's own words, quality-checked, WSJF-prioritized, and planned onto a capacity-based roadmap, with a person approving every AI suggestion.
 - **Leadership Pilot** &mdash; turns listening-tour interviews into a ranked, cited problem list and a 30-60-90 readout, and drafts the weekly leadership update over rule-computed status, checking every number against its source before anything goes to Outlook, Teams, or Slack.
+- **PLM Insight** &mdash; engineering data quality (duplicate parts, missing export classification, BOM errors) and engineering change analytics: rules find the problems, the model explains them with cited evidence, and data stewards decide; export classification stays with Trade Compliance.
+- **Support Pilot** &mdash; answers engineering-system questions only from the knowledge base, with every step quoted and checked, and says so when it does not know; turns recurring tickets into problems to fix and drafts the missing articles for a person to approve.
 
 ## Upcoming projects
 
-- **PLM Insight** &mdash; engineering data quality (duplicate parts, missing export classification, BOM errors) and engineering change analytics: rules find the problems, the model explains them with cited evidence, and data stewards decide.
-- **Support Pilot** &mdash; answers engineering-system questions from a knowledge base with cited sources, and turns recurring tickets into backlog problems.
 - **App Portfolio** &mdash; application rationalization and license and vendor intelligence: usage, cost, and contract terms, with retire-or-invest recommendations a person approves.
 - **SSDLC Checker** &mdash; collects secure-development evidence from repositories and backlogs, maps it to NIST SSDF practices, and writes a gap report that cites the evidence.
 
