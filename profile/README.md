@@ -5,48 +5,53 @@
 <h1 align="center">Aenea Labs</h1>
 
 <p align="center">
-  <strong>Open source infrastructure for autonomous systems</strong>
+  <strong>Trustworthy building blocks for AI agents, and the systems built from them.</strong><br>
+  <sub>Deterministic &middot; Auditable &middot; Human-approved &middot; Zero dependencies where the problem allows</sub>
 </p>
 
 ---
 
-## About
+Aenea Labs is the portfolio of **LaVon Rutledge**: AI agent infrastructure and security engineering, designed for regulated industries where every automated decision has to be explained, tested, and approved by a person.
 
-Aenea Labs is the home for open source projects I build and maintain. The focus is on autonomous AI systems, infrastructure tooling, and security engineering for regulated industries.
+## Project Aura
 
-Everything here is built to ship — production-grade code with real test coverage, real infrastructure, and real documentation.
+**[aenealabs/aura](https://github.com/aenealabs/aura)** &mdash; an autonomous AI security platform for enterprise codebases. Aura finds a vulnerability, writes the patch, proves it in a network-isolated sandbox, and queues it for human approval.
 
-## Projects
+- Coder, Reviewer, and Validator agents with checks and balances, grounded in hybrid GraphRAG code context
+- Human-in-the-loop approval workflows with industry-specific policy presets
+- 26,000+ tests &middot; Python 3.11+ &middot; source available under BSL 1.1 (becomes Apache 2.0 on 2030-03-23)
 
-### [Project Aura](https://github.com/aenealabs/aura)
+## Agent packages
 
-Autonomous AI security platform for enterprise code intelligence and security remediation. Multi-agent system that detects vulnerabilities, generates patches, validates in sandboxes, and queues for human approval.
+Four small libraries, each solving one problem that every production agent hits. All are MIT licensed, published on PyPI, support Python 3.9+, and use only the standard library &mdash; no third-party dependencies to audit or patch. Install any of them with `pip install <package>`.
 
-More projects coming soon.
+| Package | The problem it solves |
+|:---|:---|
+| [**polytools**](https://github.com/aenealabs/polytools)<br>[![PyPI](https://img.shields.io/pypi/v/polytools?color=blue&label=)](https://pypi.org/project/polytools/) | Write a tool once from Python type hints; export it to OpenAI, Anthropic, Gemini, and MCP formats |
+| [**contexttrim**](https://github.com/aenealabs/contexttrim)<br>[![PyPI](https://img.shields.io/pypi/v/contexttrim?color=blue&label=)](https://pypi.org/project/contexttrim/) | Decide what to drop when a conversation outgrows the context window, with a report of what went and why |
+| [**injectionshield**](https://github.com/aenealabs/injectionshield)<br>[![PyPI](https://img.shields.io/pypi/v/injectionshield?color=blue&label=)](https://pypi.org/project/injectionshield/) | Screen web pages, emails, and tool results for prompt injection in microseconds, offline, at no cost per call |
+| [**agentcassette**](https://github.com/aenealabs/agentcassette)<br>[![PyPI](https://img.shields.io/pypi/v/agentcassette?color=blue&label=)](https://pypi.org/project/agentcassette/) | Record a real agent run once, then replay it in tests as a fast, free, deterministic mock |
 
-## Philosophy
+**How they fit together** in a single agent:
 
-- Build for regulated environments first, then scale down for everyone else
-- Open source the infrastructure, keep the deployment opinionated
-- Test everything, document decisions, ship with confidence
+```
+ define tools  ─►  manage context  ─►  screen untrusted input  ─►  test deterministically
+  polytools         contexttrim          injectionshield              agentcassette
+```
 
----
+## Principles
 
-## AI Agent Packages
+- **Regulated first.** Audit trails, human approval, and least privilege are designed in from the start; simpler environments get them for free.
+- **Rules where trust matters.** Checks that must be trusted run as readable rules, not model judgment; model output is verified, not assumed.
+- **Deterministic tests.** Recorded runs instead of live model calls, so tests are repeatable and cost nothing.
+- **Nothing hidden.** Zero third-party dependencies in the libraries, CI on every package, and design decisions recorded as ADRs in Aura.
 
-Open-source packages we maintain for building AI agents. Each lives in its own repository.
+## About the name
 
-We build with a zero-dependency mindset &mdash; keeping packages lightweight, auditable, and free of supply-chain bloat wherever the problem allows.
-
-| Package | Description | |
-|:---|:---|:---|
-| **polytools** | Cross-provider LLM tool schema generation from Python type hints | [Repo &rarr;](https://github.com/aenealabs/polytools) |
-| **agentcassette** | Deterministic agent test recorder and replayer &mdash; record live runs, replay as mocks | [Repo &rarr;](https://github.com/aenealabs/agentcassette) |
-| **contexttrim** | Pluggable context-window management for LLM agents | [Repo &rarr;](https://github.com/aenealabs/contexttrim) |
-| **injectionshield** | Rule-based prompt-injection detection for LLM agents | [Repo &rarr;](https://github.com/aenealabs/injectionshield) |
+Aenea Labs takes its name from Aenea, a central character in Dan Simmons's [*The Rise of Endymion*](https://en.wikipedia.org/wiki/The_Rise_of_Endymion) (1997), the fourth and final novel of the Hyperion Cantos. In the book, Aenea is the child of a human and an artificial intelligence.
 
 ---
 
 <p align="center">
-  <sub>Aenea Labs</sub>
+  <sub>Built and maintained by LaVon Rutledge &middot; <a href="https://github.com/aenealabs">github.com/aenealabs</a></sub>
 </p>
