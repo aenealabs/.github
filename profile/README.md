@@ -11,9 +11,9 @@ Aenea Labs is the portfolio of **LaVon Rutledge**: AI agent infrastructure and s
 
 ## Projects
 
-Active projects I build and maintain.
+Active projects I build and maintain (with AI).
 
-### Project Aura
+### Project Aura (Deployable to AWS Commercial & GovCloud)
 
 **[aenealabs/aura](https://github.com/aenealabs/aura)** &mdash; an autonomous AI security platform for enterprise codebases. Aura finds a vulnerability, writes the patch, proves it in a network-isolated sandbox, and queues it for human approval.
 
