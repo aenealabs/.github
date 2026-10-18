@@ -39,11 +39,19 @@ Four small libraries, each solving one problem that every production agent hits.
   polytools         contexttrim          injectionshield              agentcassette
 ```
 
+## Mission Control *(private, in development)*
+
+A suite of AI tools for IT product leadership in engineering organizations. Every tool follows the same rules: code computes, the model explains with citations that code checks, a person approves, every decision is audited, and demos run offline from recorded output.
+
+- **Backlog Pilot** &mdash; turns stakeholder requests into epics and stories traced to the stakeholder's own words, quality-checked, WSJF-prioritized, and planned onto a capacity-based roadmap, with a person approving every AI suggestion.
+- **Leadership Pilot** &mdash; turns listening-tour interviews into a ranked, cited problem list and a 30-60-90 readout, and drafts the weekly leadership update over rule-computed status, checking every number against its source before anything goes to Outlook, Teams, or Slack.
+
 ## Upcoming projects
 
-- **Backlog Pilot** &mdash; an AI backlog copilot for product owners. It turns stakeholder requests into epics and stories that are traced to the stakeholder's own words, quality-checked, and WSJF-prioritized, with a person approving every AI suggestion. *In active development.*
-- **Listening-tour synthesizer** *(working title)* &mdash; turns stakeholder interview notes into themes, personas, and a prioritized list of problems.
-- **Status &amp; risk narrator** *(working title)* &mdash; drafts weekly leadership updates and early risk warnings from delivery, budget, and risk-log data.
+- **PLM Insight** &mdash; engineering data quality (duplicate parts, missing export classification, BOM errors) and engineering change analytics: rules find the problems, the model explains them with cited evidence, and data stewards decide.
+- **Support Pilot** &mdash; answers engineering-system questions from a knowledge base with cited sources, and turns recurring tickets into backlog problems.
+- **App Portfolio** &mdash; application rationalization and license and vendor intelligence: usage, cost, and contract terms, with retire-or-invest recommendations a person approves.
+- **SSDLC Checker** &mdash; collects secure-development evidence from repositories and backlogs, maps it to NIST SSDF practices, and writes a gap report that cites the evidence.
 
 ## Principles
 
