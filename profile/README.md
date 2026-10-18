@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://avatars.githubusercontent.com/u/270479298?v=4" width="120" height="120" alt="Aenea Labs" style="border-radius: 16px;">
-</p>
-
 <h1 align="center">Aenea Labs</h1>
 
 <p align="center">
