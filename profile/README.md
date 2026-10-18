@@ -9,6 +9,13 @@
 
 Aenea Labs is the portfolio of **LaVon Rutledge**: AI agent infrastructure and security engineering, designed for regulated industries where every automated decision has to be explained, tested, and approved by a person.
 
+## Principles
+
+- **Regulated first.** Audit trails, human approval, and least privilege are designed in from the start; simpler environments get them for free.
+- **Rules where trust matters.** Checks that must be trusted run as readable rules, not model judgment; model output is verified, not assumed.
+- **Deterministic tests.** Recorded runs instead of live model calls, so tests are repeatable and cost nothing.
+- **Nothing hidden.** Zero third-party dependencies in the libraries, CI on every package, and design decisions recorded as ADRs in Aura.
+
 ## Projects
 
 Active projects I build and maintain (with AI).
@@ -53,13 +60,6 @@ A suite of AI tools for IT product leadership in engineering organizations. Ever
 
 - **App Portfolio** &mdash; application rationalization and license and vendor intelligence: usage, cost, and contract terms, with retire-or-invest recommendations a person approves.
 - **SSDLC Checker** &mdash; collects secure-development evidence from repositories and backlogs, maps it to NIST SSDF practices, and writes a gap report that cites the evidence.
-
-## Principles
-
-- **Regulated first.** Audit trails, human approval, and least privilege are designed in from the start; simpler environments get them for free.
-- **Rules where trust matters.** Checks that must be trusted run as readable rules, not model judgment; model output is verified, not assumed.
-- **Deterministic tests.** Recorded runs instead of live model calls, so tests are repeatable and cost nothing.
-- **Nothing hidden.** Zero third-party dependencies in the libraries, CI on every package, and design decisions recorded as ADRs in Aura.
 
 ## About the name
 
