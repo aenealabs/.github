@@ -55,10 +55,10 @@ A suite of AI tools for IT product leadership in engineering organizations. Ever
 - **Leadership Pilot** &mdash; turns listening-tour interviews into a ranked, cited problem list and a 30-60-90 readout, and drafts the weekly leadership update over rule-computed status, checking every number against its source before anything goes to Outlook, Teams, or Slack.
 - **PLM Insight** &mdash; engineering data quality (duplicate parts, missing export classification, BOM errors) and engineering change analytics: rules find the problems, the model explains them with cited evidence, and data stewards decide; export classification stays with Trade Compliance.
 - **Support Pilot** &mdash; answers engineering-system questions only from the knowledge base, with every step quoted and checked, and says so when it does not know; turns recurring tickets into problems to fix and drafts the missing articles for a person to approve.
+- **App Portfolio** &mdash; application rationalization and license intelligence: rules propose invest, tolerate, migrate, or eliminate from usage, technical health, and overlap with the PLM platform; the model reads contracts and code checks every quoted term before renewal deadlines, spare seats, and true-up exposure are computed; legacy apps on Active Directory are counted read-only over LDAPS.
 
 ## Upcoming projects
 
-- **App Portfolio** &mdash; application rationalization and license and vendor intelligence: usage, cost, and contract terms, with retire-or-invest recommendations a person approves.
 - **SSDLC Checker** &mdash; collects secure-development evidence from repositories and backlogs, maps it to NIST SSDF practices, and writes a gap report that cites the evidence.
 
 ## About the name
